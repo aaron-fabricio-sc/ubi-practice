@@ -7,13 +7,74 @@
 </head>
 <body>
     <section>
-        <h1>Título</h1>
-        <h2>Título</h2>
-        <h3>Sub título</h3>
-        <h4>Sub título</h4>
-        <h5>Sub título</h5>
-        <h6>Sub título</h6>
+        <h1>Título "h1"</h1>
+        <h2>Título "h2"</h2>
+        <h3>Sub título "h3"</h3>
+        <h4>Sub título "h4"</h4>
+        <h5>Sub título "h5"</h5>
+        <h6>Sub título "h6"</h6>
     </section>
-    
+    <hr>
+    <section>
+        <h3>Listas desordenadas</h3>
+        <ul>
+            <li>toyota
+                <ul>
+                    <li>año 97</li>
+                    <li>año 98</li>
+                    <li>año 99</li>
+
+                </ul>
+            </li>
+            <li>nissan</li>
+            <li>lamborginni</li>
+            
+        </ul>
+        <h3>
+            Listas Ordenadas
+        </h3>
+        <ol>
+            <li>gatos</li>
+            <li>loros</li>
+            <li>perros</li>
+        </ol>
+    </section>
+    <hr>
+    <section>
+        <h3>formularios</h3>
+        <form action="">
+            <label for="nombre">Nombres</label>
+            <input type="text" name="" id="nombre" placeholder="Ingresa tu nombre">
+            <label for="depa">Departamento</label>
+            <select name="" id="depa">
+                <option value="La Paz">La Paz</option>
+                <option value="Cochabamba">Cochabamba</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                
+            </select>
+            
+            <br>
+            <p>
+                Intereses:<br>
+                <input type="checkbox" name="cb-autos" value="gusta"> Autos<br>
+                <input type="checkbox" name="cb-deportes" value="gusta"> Deportes<br>
+                <input type="checkbox" name="cb-videojuegos" value="gusta"> Videojuegos
+              </p>
+
+              <p>
+                Empleo actual:<br>
+                <input type="radio" name="empleoactual" value="tiempocompleto"> Tiempo completo<br>
+                <input type="radio" name="empleoactual" value="mediodia"> Medio día<br>
+                <input type="radio" name="empleoactual" value="sinempleo"> Sin empleo
+              </p><br>
+              <p>Fecha esperada: <input type="date" name="fechaesperada">
+                <p>Nombre de usuario: <input type="text" name="usuario" placeholder="Usuario para acceder"></p>
+                <p>Contraseña: <input type="password" name="pass" placeholder="Elije una contraseña fuerte"></p>
+              <input type="submit" value="Enviar">
+
+              <input type="reset" value="Restaurar formulario">
+
+        </form>
+    </section>
 </body>
 </html>
