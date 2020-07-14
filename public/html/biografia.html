@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Biografia</title>
+</head>
+<style>
+    ul{
+        list-style: inside;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    @media screen and (max-width:767px){
+        .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    }
+</style>
+<body>
+    <header class="bg-primary border-b-2 border-white py-4 text-center animate__animated  animate__fadeInDownBig">
+        <h2 class="text-white text-3xl  font-bold">Aaron Fabricio Santa Cruz Valdez</h2>
+        
+    </header >
+    <section class="contenedor container">
+        <div class=" bg-primary p-6 text-white border-2 border-white animate__animated animate__fadeInBottomLeft">
+            <h3 class="font-bold text-3xl text-center">Familia</h3>
+            <ul class="list-inside">
+                <li class="">Papá: Rolando Santa Cruz</li>
+                <li>Mamá: Kareen Flores</li>
+                <li class="border border-white px-2 my-2">Hermana: Alisson Santa Cruz
+                    <ul class="text-right">
+                        <h3 class="text-lg font-bold">Sobrinos</h3>
+                        <li>Dilan Balrrientos</li>
+                        <li>Madison Barrientos</li>
+                    </ul>
+                </li>
+                <li class="border border-white px-2">Hermana: Emily Santa Cruz
+                    <ul class="text-right">
+                        <h3 class="text-lg font-bold">Sobrino</h3>
+                        <li>Sebastian Torrez</li>
+                    </ul>
+                </li>
+                <li>Hermana: Marion Santa Cruz</li>
+             
+            </ul>
+        </div>
+      
+        <section class="h-screen text-white text-xl relative bg-cover animate__animated animate__delay-1s animate__fadeInBottomRight" style="background-image: url('https://www.tutoca.com/wp-content/uploads/2018/09/audience-1835431_1280.jpg');">
+           
+            <div class="p-20 absolute bottom-0 right-0 left-0 top-0" style="background:rgba(0,0,0,0.6); z-index: 0;">
+                <h3 class="text-3xl text-center py-4 font-bold">
+                    BIOGRAFÍA
+                </h3>
+                <p class="leading-loose">
+                    Estudiante de Ingeniería en Sistemas. Actualmente cursando 5to año. Edad 23 años.
+                    Me gusta la Música en especial 
+                    <strong> tocar la guitarra eléctrica.</strong>
+                    <br>
+                    Trabaje por un tiempo en grupos musicales.
+                    <br>
+                    Actualmente me dedico a aprender sobre desarrollo front-end y las nuevas tecnologías de desarrollo.
+                    <br>
+                    En un futuro espero cooperar con empresas grandes de técnologia.
+                </p>
+            </div>
+        </section>
+       
+    </section>
+
+
+    </body>
+    
+
+   
+</html>

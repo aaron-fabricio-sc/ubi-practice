@@ -1,0 +1,24 @@
+{
+  "name": "ubi",
+  "version": "1.0.0",
+  "description": "ubi",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-fabricio-sc/ubi-practice.git"
+  },
+  "author": "Aaron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaron-fabricio-sc/ubi-practice/issues"
+  },
+  "homepage": "https://github.com/aaron-fabricio-sc/ubi-practice#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
