@@ -2,4 +2,27 @@
 
 @tailwind components;
 
+.titulo{
+    @apply text-center bg-blue-900 font-bold uppercase p-2;
+}
+.descripcion{
+    @apply  bg-blue-700 uppercase p-2;
+}
+.inputs{
+    @apply block bg-blue-200 w-full py-1 px-4 rounded-lg border-2 border-teal-700 text-black;
+}
+.inputs:focus{
+    @apply shadow-outline
+}
+
+.boton{
+    @apply mx-6 bg-blue-700 rounded-lg py-2 px-4 text-white;
+}
+.title{
+  @apply  text-white text-center font-bold text-2xl uppercase;
+}
+.formulario{
+    @apply rounded-lg  mx-auto py-4 px-6;
+}
+
 @tailwind utilities;
